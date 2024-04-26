@@ -1,7 +1,7 @@
 name = 'Zapf'
 license = 'MIT'
 licenselink = 'https://github.com/guemax/zapf/blob/main/LICENSE'
-description = 'A simple Hugo theme with Hermann Zapf\' Palatino font.'
+description = 'A Hugo theme for fans of Hermann Zapf.'
 
 homepage = 'https://github.com/guemax/zapf'
 demosite = 'https://guemax.de'
