@@ -1,90 +1,30 @@
-![banner](https://raw.githubusercontent.com/tomfran/typo/main/images/banner-light.png)
+# Zapf, a Hugo theme for fans of Hermann Zapf.
 
-# Typo, a Hugo theme.
+Zapf is a minimalistic theme designed for blogs.  It uses Palatino
+(TeXGyre Pagella), Zapf Chancery (TeXGyre Chorus) and Iosevka as
+fonts.  [See it in action!](https://guemax.de)
 
-Typo is a theme backed by simplicity, as you can see in the screenshots below. The goal was to have a website centered around content and nothing more.
+This theme is based on [Typo](https://github.com/tomfran/typo) by
+Francesco Tomaselli.
 
-**Homepage**
+## Installation
 
-![1](https://raw.githubusercontent.com/tomfran/typo/main/images/1.png)
+***Note**: I created this theme for my personal usage, therefore I may
+(and probably will) modify it in ways only suiting me.  I do not
+recommend you to use this theme unless you are willing to fiddle
+around with it from time to time.*
 
-**Article**
+After having read the previous warning carefully and having understood
+the consequences, you may add this theme to your hugo project with the
+following command:
 
-![2](https://raw.githubusercontent.com/tomfran/typo/main/images/2.png)
-
-![3](https://raw.githubusercontent.com/tomfran/typo/main/images/3.png)
-
----
-
-**Table of content**
-
-- [1 Installation](#1-installation)
-- [2 Features](#2-features)
-  - [2.1 Header autonumbering](#21-header-autonumbering)
-  - [2.2 Appearance preferences](#22-appearance-preferences)
-  - [2.3 Dark and light mode images](#23-dark-and-light-mode-images)
-  - [2.4 Fonts](#24-fonts)
-- [3 Configuration example](#3-configuration-example)
-  - [3.1 post.md](#31-postmd)
-  - [3.2 hugo.toml](#32-hugotoml)
-- [4 References](#4-references)
-- [5 Contributing](#5-contributing)
-
----
-
-## 1 Installation
-
-To receive updates, add the theme as a submodule: 
 ```
 git submodule add git@github.com:guemax/zapf.git themes/zapf
 ```
 
-Otherwise you can clone the repo and copy it manually to your theme folder.
+## Configuration example
 
-You can find a repo using this theme [here](https://github.com/tomfran/blog).
-
-## 2 Features
-
-### 2.1 Header autonumbering
-
-You can add auto-numbering to the pages by setting the following parameter in 
-the header of your md files. The numbering is currently supported to level 3 subheadings.
-
-```
-autonumber: true
-```
-
-### 2.2 Appearance preferences
-
-In your `hugo.toml` file you can specify the preferred theme: 
-
-```
-theme = "light | dark | auto"
-```
-
-### 2.3 Dark and light mode images
-
-You can tags to decide if images are displayed in dark or light mode, as Github id doing for readmes.
-
-Let's say you have two different versions
-of an image, setting #dark or #light do the trick.
-
-```md
-![skiplist](skiplist-light.png#light)
-![skiplist](skiplist-dark.png#dark)
-```
-
-You can of course remove the final tag 
-to alway show the same image on light and 
-dark mode.
-
-### 2.4 Fonts
-
-The fonts in use are [Literata](https://fonts.google.com/specimen/Literata) and [Monaspace Argon](https://github.com/githubnext/monaspace).
-
-## 3 Configuration example
-
-### 3.1 post.md
+### post.md
 
 ```
 ---
@@ -100,7 +40,7 @@ math: true
 Your content...
 ```
 
-### 3.2 hugo.toml
+### hugo.toml
 
 ```toml
 baseURL = 'https://example.org/'
@@ -108,19 +48,11 @@ languageCode = 'en-us'
 title = 'Title'
 theme = 'Typo'
 
-# Disable tags, actually, they are rendered as a list, but the idea is to disable them.
-disableKinds = ['taxonomy']
-
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxxx"
-
 [params]
 # Math mode
 math = true
 
-# Intro on main page, content in markdown, if you omit title or content the other can be displayed
-homeIntro = true
-homeIntroTitle = 'Hello traveler!'
+# Intro on main page, content in markdown:
 homeIntroContent = """
 Join me on this journey as I explore the ever-evolving landscape of software engineering, 
 fueled by curiosity and a relentless drive to innovate. 
@@ -135,32 +67,6 @@ homeCollection = 'posts'
 # Pagination size across all website, this is the same for homepage and single list page
 paginationSize = 100
 
-# Social icons
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/your-name"
-
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@your-name"
-
-[[params.social]]
-name = "github"
-url = "https://github.com/your-name"
-
-# Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
-
-[[params.menu]]
-name = "posts"
-url = "/posts"
-
-[[params.menu]]
-name = "resume"
-url = "/resume"
-
 # Syntax highligth on code blocks, all styles: 
 # https://xyproto.github.io/splash/docs/all.html
 # I suggest algol
@@ -168,11 +74,3 @@ url = "/resume"
 [markup.highlight]
 style = 'algol'
 ```
-
-## 4 References
-
-The SVGs for social icons are taken from [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod).
-
-## 5 Contributing
-
-Feel free to write proposals or stuff you'd like to see. If you feel like contributing, PRs are welcome!
