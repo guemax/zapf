@@ -1,10 +1,10 @@
-name = 'Zapf'
-license = 'MIT'
-licenselink = 'https://github.com/guemax/zapf/blob/main/LICENSE'
-description = 'A Hugo theme for fans of Hermann Zapf.'
+name = "Zapf"
+license = "MIT"
+licenselink = "https://github.com/guemax/zapf/blob/main/LICENSE"
+description = "A Hugo theme for fans of Hermann Zapf."
 
-homepage = 'https://github.com/guemax/zapf'
-demosite = 'https://guemax.de'
+homepage = "https://github.com/guemax/zapf"
+demosite = "https://guemax.de"
 
 tags = ["responsive", "simple", "clean", "light", "dark", "blog", "minimal"]
 
@@ -20,9 +20,9 @@ features = [
 ]
 
 [author]
-name = 'Max Günther'
-homepage = 'https://guemax.de'
+name = "Max Günther"
+homepage = "https://guemax.de"
 
 [original]
-name = 'Francesco Tomaselli'
-homepage = 'https://tomfran.github.io/'
+name = "Francesco Tomaselli"
+homepage = "https://tomfran.github.io/"

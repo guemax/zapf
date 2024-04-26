@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Palatino';
+  font-family: "Palatino";
   font-size: 1.25rem;
   color: var(--content);
   line-height: 1.5rem;

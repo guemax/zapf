@@ -48,7 +48,7 @@
 
     console.log
 
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
       cls = "dark";
     }
 
@@ -63,7 +63,7 @@
 
   if (isAuto()) {
     console.log("Setting invert listener");
-    window.matchMedia('(prefers-color-scheme: dark)').addListener(invert);
+    window.matchMedia("(prefers-color-scheme: dark)").addListener(invert);
   }
 
   setTheme();
