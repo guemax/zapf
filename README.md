@@ -36,7 +36,7 @@ Typo is a theme backed by simplicity, as you can see in the screenshots below. T
 
 To receive updates, add the theme as a submodule: 
 ```
-git submodule add git@github.com:tomfran/typo.git themes/typo
+git submodule add git@github.com:guemax/zapf.git themes/zapf
 ```
 
 Otherwise you can clone the repo and copy it manually to your theme folder.

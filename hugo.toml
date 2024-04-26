@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'typo'
+title = 'zapf'
 
 [module]
 [module.hugoVersion]

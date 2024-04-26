@@ -1,11 +1,10 @@
-name = 'Typo'
+name = 'Zapf'
 license = 'MIT'
-licenselink = 'https://github.com/tomfran/typo/blob/main/LICENSE'
-description = 'A simple Hugo theme'
+licenselink = 'https://github.com/guemax/zapf/blob/main/LICENSE'
+description = 'A simple Hugo theme with Hermann Zapf\' Palatino font.'
 
-homepage = 'https://github.com/tomfran/typo'
-
-demosite = 'https://tomfran.github.io/'
+homepage = 'https://github.com/guemax/zapf'
+demosite = 'https://guemax.de'
 
 tags = ["responsive", "simple", "clean", "light", "dark", "blog", "minimal"]
 
@@ -21,5 +20,9 @@ features = [
 ]
 
 [author]
+name = 'Max Günther'
+homepage = 'https://guemax.de'
+
+[original]
 name = 'Francesco Tomaselli'
 homepage = 'https://tomfran.github.io/'
