@@ -151,7 +151,8 @@ hr {
 /* Footer */
 
 footer {
-  font-size: small;
+  font-family: "Chorus";
+  margin-bottom: .5em;
   display: flex;
   justify-content: center;
   align-items: center;
