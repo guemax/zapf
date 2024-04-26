@@ -10,8 +10,8 @@
 @font-face {
     font-family: "Palatino";
     src: url("/fonts/TeXGyre/pagella.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/pagella.woff") format("woff");
-    url("/fonts/TeXGyre/pagella.otf") format("otf");
+	 url("/fonts/TeXGyre/pagella.woff") format("woff"),
+	 url("/fonts/TeXGyre/pagella.otf") format("otf");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
     font-family: "Palatino";
     src: url("/fonts/TeXGyre/pagella-italic.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/pagella-italic.woff") format("woff");
-    url("/fonts/TeXGyre/pagella-italic.otf") format("otf");
+	 url("/fonts/TeXGyre/pagella-italic.woff") format("woff"),
+	 url("/fonts/TeXGyre/pagella-italic.otf") format("otf");
     font-weight: normal;
     font-style: italic;
 }
@@ -28,8 +28,8 @@
 @font-face {
     font-family: "Palatino";
     src: url("/fonts/TeXGyre/pagella-bold.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/pagella-bold.woff") format("woff");
-    url("/fonts/TeXGyre/pagella-bold.otf") format("otf");
+	 url("/fonts/TeXGyre/pagella-bold.woff") format("woff"),
+	 url("/fonts/TeXGyre/pagella-bold.otf") format("otf");
     font-weight: bold;
     font-style: normal;
 }
@@ -37,8 +37,8 @@
 @font-face {
     font-family: "Palatino";
     src: url("/fonts/TeXGyre/pagella-bolditalic.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/pagella-bolditalic.woff") format("woff");
-    url("/fonts/TeXGyre/pagella-bolditalic.otf") format("otf");
+	 url("/fonts/TeXGyre/pagella-bolditalic.woff") format("woff"),
+	 url("/fonts/TeXGyre/pagella-bolditalic.otf") format("otf");
     font-weight: bold;
     font-style: italic;
 }
