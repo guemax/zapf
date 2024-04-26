@@ -91,6 +91,12 @@ code {
   font-size: .9em;
 }
 
+pre code {
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  margin: 0 !important;
+}
 
 .MathJax {
   overflow-x: auto;
