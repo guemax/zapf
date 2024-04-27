@@ -1,36 +1,31 @@
 {{ define "main" }}
 
 {{/* Intro */}}
-
-<div {{ if .Param "autonumber" }} class="autonumber" {{end}}>
-
-  <div class=" single-intro-container">
-
+<div{{ if .Param "autonumber" }} class="autonumber" {{ end }}>
+  <div class="single-intro-container">
     {{/* Title and Summary */}}
-
     <h1 class="single-title">{{ .Title }}</h1>
+
     {{if .Param "summary" }}
     <p class="single-summary">{{ .Summary }}</p>
     {{ end }}
 
     {{/* Reading Time */}}
-
     <p class="single-readtime">
-      {{if .Date }}
+      {{ if .Date }}
       {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
       {{ $dateHuman := .Date | time.Format "02.01.2006" }}
       Veröffentlicht am <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-      {{end}}
-      {{if (.Param "readTime")}}
-      – Lesezeit: {{.ReadingTime}} min
-      {{end }}
+      {{ end }}
+      
+      {{ if (.Param "readTime") }}
+      &ndash; Lesezeit: {{ .ReadingTime }} min
+      {{ end }}
     </p>
-
   </div>
 
   {{/* Table of Content */}}
-
-  {{if .Param "toc" }}
+  {{ if .Param "toc" }}
   <aside class="toc">
     <p><strong>Inhalt</strong></p>
     {{ .TableOfContents }}
@@ -38,11 +33,8 @@
   {{ end }}
 
   {{/* Actual document content */}}
-
-  <div class="single-content">
+  <article class="single-content">
     {{ .Content }}
-  </div>
-
+  </article>
 </div>
-
 {{ end }}
