@@ -323,6 +323,12 @@ footer a {
     display: none !important;
 }
 
+figcaption {
+    margin: 0 2em 3em 2em;
+    font-size: 1rem;
+    line-height: 1.25em;
+}
+
 /* 404 */
 
 .not-found {
