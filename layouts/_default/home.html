@@ -4,7 +4,6 @@
 
 {{/* Intro summary section */}}
 {{ if or (.Site.Params.homeIntroTitle) (.Site.Params.homeIntroContent) }}
-
 <div class="intro">
     {{ if .Site.Params.homeIntroTitle }}
     <h1>{{ .Site.Params.homeIntroTitle }}</h1>
@@ -14,11 +13,9 @@
     <p>{{ .Site.Params.homeIntroContent | markdownify }}</p>
     {{ end }}
 </div>
-
 {{ end }}
 
 {{/* Social Icons */}}
-
 {{ with site.Params.social }}
 <div class="social-icons">
     {{- range . }}
@@ -31,7 +28,6 @@
 {{ end }}
 
 {{/* Collection Section */}}
-
 {{ if .Site.Params.homeCollection }}
 
 {{ with .Site.Params.homeCollectionTitle}}
@@ -52,7 +48,6 @@
 {{ end }}
 
 {{ partial "pagination-controls.html" $paginator}}
-
 {{ end }}
 
 {{ end }}
