@@ -87,8 +87,7 @@ code {
     -o-font-feature-settings: "liga", "dlig";
     font-feature-settings: "liga", "dlig";
     font-variant-ligatures: contextual;
-    font-family: "Iosevka";
-    font-size: .9em;
+    font-family: "LModern";
 }
 
 pre code {
@@ -160,7 +159,7 @@ footer {
 }
 
 footer a {
-    font-family: "Iosevka";
+    font-family: "LModern";
     margin-left: .2rem;
     margin-right: .2rem;
 }
@@ -183,8 +182,7 @@ footer a {
 }
 
 .post-date {
-    font-size: small;
-    font-family: "Iosevka";
+    font-size: .7em;
     width: 110px;
     text-align: right;
     padding-right: 1rem;

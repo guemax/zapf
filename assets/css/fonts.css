@@ -44,28 +44,10 @@
 }
 
 @font-face {
-    font-family: "Cursor";
-    src: url("/fonts/TeXGyre/cursor.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/cursor.woff") format("woff"),
-         url("/fonts/TeXGyre/cursor.otf") format("otf");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Cursor";
-    src: url("/fonts/TeXGyre/cursor-bold.woff2") format("woff2"),
-	 url("/fonts/TeXGyre/cursor-bold.woff") format("woff"),
-         url("/fonts/TeXGyre/cursor-bold.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Iosevka";
-    src: url("/fonts/Iosevka/iosevka.woff2") format("woff2"),
-	 url("/fonts/Iosevka/iosevka.woff") format("woff"),
-	 url("/fonts/Iosevka/iosevka.otf") format("otf");
+    font-family: "LModern";
+    src: url("/fonts/LModern/lmodern.woff2") format("woff2"),
+	 url("/fonts/LModern/lmodern.woff") format("woff"),
+         url("/fonts/LModern/lmodern.otf") format("otf");
     font-weight: normal;
     font-style: normal;
 }
