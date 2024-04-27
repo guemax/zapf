@@ -152,7 +152,7 @@ hr {
 
 footer {
     font-family: "Chorus";
-    margin: .5em;
+    padding-bottom: .5em;
     display: flex;
     justify-content: center;
     align-items: center;
