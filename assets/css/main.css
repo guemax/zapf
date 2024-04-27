@@ -158,12 +158,6 @@ footer {
     max-height: var(--footer-height);
 }
 
-footer a {
-    font-family: "LModern";
-    margin-left: .2rem;
-    margin-right: .2rem;
-}
-
 /* Posts list  */
 
 .post-list-container {
