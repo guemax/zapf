@@ -3,7 +3,7 @@
 {{ .Content }}
 
 {{/* Intro summary section */}}
-{{ if .Site.Params.homeIntro }}
+{{ if or (.Site.Params.homeIntroTitle) (.Site.Params.homeIntroContent) }}
 
 <div class="intro">
     {{ if .Site.Params.homeIntroTitle }}
